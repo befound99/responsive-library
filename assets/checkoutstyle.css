@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    
+}
+i {
+    color: whitesmoke;
+    font-size: 50px;
+}
+a:hover {
+    opacity: 0.8;
+    position: relative;
+    top: 1px;
+    cursor: pointer;
+}
+.flex {
+    display: flex;
+}
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    align-items: center;
+    padding: 0 20px;
+}
+.brand {
+    align-items: center;
+    width: 250px;
+
+}
+.checkout-container {
+    width: calc(100vw - 250px);
+    justify-content: center;
+}
+span.checkout {
+    position: relative;
+    font-weight: 600;
+    justify-content: center;
+}
+@media (max-width: 691px){
+
+}
+@media (max-width: 368px) {
+    span.checkout {
+        display: none   ;
+    }
+    nav {
+        justify-content: center;
+    }   
+}
+span.material-symbols-outlined {
+    font-size: 40px;
+    margin: 0 10px 0 0;
+}
+.brand-name {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+nav span {
+    color: whitesmoke;
+    font-weight: 550;
+
+}
+.form-container {
+    height: 100vh;
+    background-color: #333;
+    padding: 50px;
+    
+}
+@media (max-width: 552px){
+    .form-container {
+        padding: 0;
+    }
+}
+form {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+@media (max-width: 552px) {
+    .top {
+        flex-direction: column;
+    }
+}
+.middle {
+    align-items: baseline;
+}
+@media (max-width: 630px) {
+    .middle {
+        flex-direction: column;
+    }
+    input#expiration-date {
+        margin-left: 20px;
+    }
+    .middle label {
+        margin: 0 auto;
+    }
+    .card-type {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+}
+.middle label {
+    padding-left: 20px;-right: 0;
+}
+.cvv {
+    margin: 0 20px 0 0;
+}
+@media (max-width: 552px) {
+    .cvv {
+        margin: 0;
+    }
+
+}
+
+.card-type {
+
+}
+.bottom {
+    flex-direction: column;
+}
+.bottom label {
+    text-align: center;
+}
+textarea {
+    margin: 0 20px;
+    background-color: #333;
+    color: whitesmoke;
+    border: 0;
+    resize: none;
+    border-bottom: 1px solid whitesmoke;
+    border-top: 1px solid whitesmoke;
+    
+}
+.actions {
+    flex-direction: column;
+    align-items: center;
+}
+.actions button, .actions a {
+    width: 100%;
+    text-decoration: none;
+}
+#proceed:hover {
+    opacity: 0.8;
+    position: relative;
+    top: 1px;
+    cursor: pointer;
+}
+.actions input#proceed {
+    width: 80%;
+    background-color: black;
+    color: whitesmoke;
+    border: 0;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 2px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.actions a {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+input.cancel {
+    width: 80%;
+    color: black;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 2px;
+}
+.actions button {
+    width: 100%;
+    border: 2px solid rgb(0,122,255);
+    background-color: rgb(203, 218, 235);
+    color: rgb(0,122,255);
+}
+
+#expiration-date {
+    margin-left: 5px;
+}
+label {
+    color: whitesmoke;
+}
+input {
+    color: whitesmoke;
+    background-color: #333;
+    border: 0;
+    border-bottom: 1px solid whitesmoke;
+    margin: 20px;
+}
+.anchor-cancel:hover {
+    cursor: default;
+}
+input[type=button]:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 552px) {
+    input {
+        margin-right: 0; 
+    }
+    textarea {
+        margin-right: 0; 
+    }
+    #expiration-date {
+        margin-right: 20px;
+    }
+}
+::placeholder {
+    color: whitesmoke;
+    opacity: 0.3;
+    font-size: 15px;
+}
+

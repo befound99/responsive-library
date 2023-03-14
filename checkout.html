@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <script src="https://kit.fontawesome.com/c6771b9339.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="assets/checkoutstyle.css">
+</head>
+<body>
+
+    <nav class="flex">
+        <div class="brand flex">
+            <span class="material-symbols-outlined">
+                menu_book
+            </span>
+            <span class="brand-name">BOOKERISM</span>
+        </div>
+        <div class="checkout-container flex">
+            <span class="checkout flex">CHECKOUT</span>
+        </div>
+    </nav>
+    <div class="form-container flex">
+        <form action="#" method="#" class="form">
+            <div class="top flex">
+                <input type="text" placeholder="Name" required>
+                <input type="number" placeholder="CardNumber" required>
+            </div>
+            <div class="middle flex">
+                <input type="tel" placeholder="Phone no. (09121234123)" required pattern="[0]{1}[9]{1}[0-9]{9}">
+                <div class="card-type flex">
+                    <div class="flex">
+                        <input type="radio" id="visa" name="card" value="rock">
+                        <i class="fa-brands fa-cc-visa"></i>
+                    </div>
+                    <div class="flex">
+                        <input type="radio" id="am-ex" name="card" >
+                        <i class="fa-brands fa-cc-amex"></i>
+                    </div>
+                    <div class="flex">
+                        <input type="radio" id="discover" name="card" >
+                        <i class="fa-brands fa-cc-discover"></i>
+                    </div>
+
+        
+
+        
+
+                </div>
+            </div>
+            <div class="bottom flex">
+                <label for="address">Address</label>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Billy Joe Jackson Mailing Address: 3750 Ash St There, OH 44078"></textarea>
+            </div>
+            <div class="actions flex">
+                
+                <input type="submit" name="proceed" id="proceed" value="PROCEED">
+
+                <a href="index.html" class="anchor-cancel flex">
+                    <input type="button" value="Cancel" class="cancel" id="cancel">
+                </a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
