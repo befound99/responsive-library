@@ -170,6 +170,7 @@ span.material-symbols-outlined.search {
     background-color: #333;
     padding: 20px 0 20px 20px;
     display: flex;
+    justify-content: center;
     align-items: last baseline;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -187,7 +188,7 @@ span.material-symbols-outlined.search {
 @media (max-width: 700px) {
     .card-container {
         flex-direction: column;
-        padding: 20px;
+        padding: 20px 0;
     }
     .card {
         height: 400px;
@@ -347,13 +348,13 @@ span.material-symbols-outlined.search {
 /*                                                      cards end */
 /*                                                      cards end */
 section {
-    padding: 0 100px;
     background-color: #333;
     justify-content: center;
-    justify-content: center;
+    align-items: center;
     
 }
 .things-container {
+    justify-content: center;
     flex-wrap: wrap;
     width: 80%;
 }
