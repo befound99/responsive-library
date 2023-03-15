@@ -21,7 +21,7 @@ a:hover {
 header  {
     width: 100%;
     height: 60vh;
-    background-image: url(/assets/img/istockphoto-879726232-2048x2048.jpg);
+    background-image: url(assets/img/istockphoto-879726232-2048x2048.jpg);
     background-size: cover;
 }
 header img {
